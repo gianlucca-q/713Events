@@ -21,7 +21,7 @@
     margin: 0;
     padding: 0;
     transition: all 0.5s;
-    user-select: none
+    user-select: none;
 }
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
@@ -47,6 +47,11 @@ header h3 {
     text-align: center;
     font-size: 2em;
     color: crimson;
+}
+/*----------------------------------------------------*/
+section {
+    width: 100%;
+    margin: auto;
 }
 /*----------------------------------------------------*/
 .cont-widget {

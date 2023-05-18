@@ -1,0 +1,156 @@
+@import url('https://fonts.cdnfonts.com/css/aventena');
+@import url('https://fonts.cdnfonts.com/css/silvera-peach');
+@import url('https://fonts.cdnfonts.com/css/memogram');
+@import url('https://fonts.cdnfonts.com/css/stangith');
+@import url('https://fonts.cdnfonts.com/css/getboreg-trial-only');
+
+@import url('https://fonts.cdnfonts.com/css/elegante-classica');
+@import url('https://fonts.cdnfonts.com/css/agenor-neue');
+
+:root {
+    --principal-color: #f4e9e3;
+    --secondary-color: #1a1a1a;
+    --font-family-titles: 'Elegante Classica', serif;
+    --font-family-text: 'Agenor Neue', sans-serif;
+}
+::selection {
+    color: var(--principal-color);
+    background: var(--secondary-color);
+}
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+    user-select: none
+}
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    color: var(--principal-color);
+    font-family: var(--font-family-text);
+}
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+header {
+    margin-top: 1%;
+}
+header h2 {
+    text-align: center;
+    font-size: 3em;
+}
+header h3 {
+    text-align: center;
+    font-size: 2em;
+}
+/*----------------------------------------------------*/
+.cont-widget {
+    background-color: var(--principal-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    
+    min-width: 400px;
+    padding: 4% 2%;
+    margin: 2% 5%;
+}
+#event-title {
+    text-align: center;
+    font-size: 2em;
+}
+#event-date {
+    text-align: center;
+    font-size: 1.5em;
+}
+/*----------------------------------------------------*/
+.cont-turno {
+    border: 3px var(--secondary-color) solid;
+    border-radius: 10px;
+    margin: 2% auto;
+    padding: 2%;
+}
+.turno-title {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/*----------------------------------------------------*/
+.turno-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#hora {
+    font-size: 80px;
+    font-family: var(--font-family-titles);
+}
+#hora span {
+    font-size: 50px;
+}
+.personal-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+
+    border: 2px;
+    border-style: solid none;
+}
+
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 2%;
+
+    background-color: black;
+    text-align: center;
+}
+footer p {
+    margin: auto;
+    letter-spacing: 1px;
+    color: var(--inverted-color);
+    font-size: 1em;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+
+@media (min-width: 700px) {
+    header h2 {
+        font-size: 4em;
+    }
+    header h3 {
+        font-size: 2em;
+    }
+    section {
+        padding: .5% 2%;
+    }
+    .cont-widget {
+        min-width: 500px;
+        margin: 2% 0.5%;
+    }
+    footer {
+        padding: 1.5%;
+    }
+    footer p {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 1000px) {
+    header h2 {
+        font-size: 5em;
+    }
+    header h3 {
+        font-size: 3em;
+    }
+    .cont-widget {
+        margin: 1% 0.5%;
+        padding: 2% 2%;
+    }
+
+}

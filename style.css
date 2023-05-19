@@ -62,6 +62,7 @@ header h3 {
 }
 .row {
     margin: auto;
+    margin-right: 0;
 }
 #event-title {
     text-align: center;

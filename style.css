@@ -37,7 +37,7 @@ body {
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 header {
-    margin-top: 1%;
+    margin: 2% 2% 0;
 }
 header h2 {
     text-align: center;
@@ -49,19 +49,19 @@ header h3 {
     color: crimson;
 }
 /*----------------------------------------------------*/
-section {
-    width: 100%;
-    margin: auto;
-}
+/*----------------------------------------------------*/
 /*----------------------------------------------------*/
 .cont-widget {
     background-color: var(--principal-color);
     color: var(--secondary-color);
     border-radius: 10px;
     
-    min-width: 400px;
+    min-width: 380px;
     padding: 4% 2%;
     margin: 2% 5%;
+}
+.row {
+    margin: auto;
 }
 #event-title {
     text-align: center;
@@ -71,7 +71,7 @@ section {
     text-align: center;
     font-size: 1.5em;
 }
-/*----------------------------------------------------*/
+/*----------------------------------------------------*/ 
 .cont-turno {
     border: 3px var(--secondary-color) solid;
     border-radius: 10px;
@@ -105,8 +105,9 @@ section {
     border: 2px;
     border-style: solid none;
 }
-
-
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
 footer {
     width: 100%;
     bottom: 0;
@@ -121,14 +122,12 @@ footer p {
     color: var(--inverted-color);
     font-size: 1em;
 }
-
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
-
 @media (min-width: 700px) {
     header h2 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
     header h3 {
         font-size: 2em;
@@ -149,10 +148,10 @@ footer p {
 }
 @media (min-width: 1000px) {
     header h2 {
-        font-size: 5em;
+        font-size: 4em;
     }
     header h3 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .cont-widget {
         margin: 1% 0.5%;
